@@ -1,0 +1,9 @@
+curl -X POST "https://localhost:5001/api/FileUpload" -H  "accept: files/plain" -H  "Content-Type: multipart/form-data" -F "files=@C:\Users\user\Desktop\ng.bmp;type=image/.bmp"
+
+GET
+curl https://localhost:44356/api/FileUpload/ng
+
+
+
+
+
